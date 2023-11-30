@@ -1,0 +1,973 @@
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, shrink-to-fit=no">
+    <script>
+        const reactDefaultThemes = {defaultBaseTextSize: '16px',defaultBodyFont: 'Noto Sans',defaultBodyFontWeight: '300',defaultBodyTextColor: '#333333',defaultButtonBackgroundColor: '#2e7ef9',defaultButtonRoundness: '.5rem',defaultButtonTextColor: '#ffffff',defaultContainerStyle: 'container',defaultTitleFont: 'Noto Sans',defaultTitleFontWeight: '600',defaultTitleTextColor: '#333333'};
+    </script>
+
+<meta name="twitter:title" content="Home"><meta property="twitter:title" content="Home"><meta property="og:title" content="Home">
+
+
+
+<title>Home - made with softr.io</title>
+
+
+
+<link rel="icon" type="image/x-icon" href="https://softr-prod.imgix.net/applications/8f7af9fb-a550-425d-b327-48195c193a5f/assets/c870e998-d79a-414a-8577-5bb4e5b7464d.svg?rnd=1622671497214">
+
+
+<link rel="canonical" href="https://sahilnair-bumble-nextleap.preview.softr.app/">
+<link href="https://fonts.softr-files.com/google/api/css?family=Noto+Sans:400,400i,700,700i&amp;display=swap" rel="stylesheet">
+
+<link href="https://assets.softr-files.com/libs/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://assets.softr-files.com/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+
+<style type="text/css">
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar-brand img {
+            max-width: 15rem !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    p, h1, h2, h3, h4, h5, small {
+        white-space: pre-line;
+    }
+
+    @media screen and (max-width: 768px) {
+        input, select, textarea {
+            font-size: 16px !important;
+        }
+    }
+
+    h1.sw-font-family-default,
+    h2.sw-font-family-default,
+    h3.sw-font-family-default {
+        font-family: "Noto Sans";
+    }
+
+    h1.sw-font-weight-default,
+    h2.sw-font-weight-default,
+    h3.sw-font-family-default {
+        font-weight: 600;
+    }
+
+    h1.sw-text-color-default,
+    h2.sw-text-color-default,
+    h3.sw-font-family-default {
+        color: #333333;
+    }
+
+    section.sw-font-family-default,
+    header.sw-font-family-default,
+    nav.sw-font-family-default,
+    footer.sw-font-family-default,
+    div.sw-font-family-default,
+    span.sw-font-family-default,
+    small.sw-font-family-default,
+    pre.sw-font-family-default,
+    p.sw-font-family-default,
+    b.sw-font-family-default,
+    li.sw-font-family-default,
+    ul.sw-font-family-default,
+    a.sw-font-family-default,
+    h4.sw-font-family-default,
+    h5.sw-font-family-default,
+    h6.sw-font-family-default {
+        font-family: "Noto Sans";
+    }
+
+    span.sw-font-weight-default,
+    li.sw-font-weight-default span,
+    small.sw-font-weight-default,
+    li.sw-font-weight-default small,
+    pre.sw-font-weight-default,
+    p.sw-font-weight-default,
+    h4.sw-font-weight-default,
+    h5.sw-font-weight-default,
+    h6.sw-font-weight-default {
+        font-weight: 300;
+    }
+
+    span.sw-text-color-default,
+    li.sw-text-color-default span,
+    small.sw-text-color-default,
+    li.sw-text-color-default small,
+    pre.sw-text-color-default,
+    p.sw-text-color-default,
+    div.sw-text-color-default,
+    h4.sw-text-color-default,
+    h5.sw-text-color-default,
+    h6.sw-text-color-default {
+        color: #333333;
+    }
+
+    input.sw-font-family-default,
+    textarea.sw-font-family-default {
+        font-family: "Noto Sans";
+    }
+
+    input.sw-font-weight-default,
+    textarea.sw-font-weight-default {
+        font-weight: 300;
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-family: "Noto Sans";
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-weight: 300;
+    }
+
+    .sw-text-color-default[data-element='button'] {
+        color: #ffffff;
+    }
+
+    .sw-background-color-default[data-element='button'] {
+        background-color: #2e7ef9;
+    }
+
+    .sw-border-radius-default[data-element='button'] {
+        border-radius: .5rem;
+    }
+
+    /* Micromodal styles */
+    .sw-modal {
+        display: none;
+    }
+
+    .sw-modal.is-open {
+        display: block;
+    }
+
+    .sw-modal .sw-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .sw-modal .sw-modal-container {
+        background-color: #FFFFFF;
+        padding: 40px 10px 10px 10px;
+        overflow-y: auto;
+        box-sizing: border-box;
+        position: relative;
+        margin: auto;
+        border-radius: 16px;
+    }
+
+    .sw-modal #sw-modal-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sw-modal .sw-modal-close {
+        background: transparent;
+        border: 0;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .sw-modal-close:focus {
+        outline: none;
+    }
+
+    .sw-modal .sw-modal-iframe {
+        border: none;
+    }
+
+    .sw-modal-size-sm {
+        width: 464px;
+        height: 350px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+
+    .sw-modal-size-md {
+        width: 755px;
+        height: 600px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-lg {
+        width: 1196px;
+        height: 780px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-xl {
+        width: 95vw;
+        height: 95vh;
+    }
+
+    .sw-modal-container > div, #sw-modal-content, #sw-modal-content iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sw-modal-close:before {
+        content: "\2715";
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+    .sw-font-size-m { font-size: 1rem!important; } .sw-text-color-000000 { color: #000000!important; } .sw-font-family-default {  } .sw-font-weight-semibold { font-weight: 600!important; } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-display-block { display: block!important; } .sw-padding-top-6xs { padding-top: 0.5rem!important; } .sw-padding-bottom-6xs { padding-bottom: 0.5rem!important; } .sw-padding-left-6xs { padding-left: 0.5rem!important; } .sw-padding-right-xs { padding-right: 2rem!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-font-size-s { font-size: 0.875rem!important; } .sw-font-weight-normal { font-weight: 400!important; } .sw-display-flex { display: flex!important; } .sw-padding-top-7xs { padding-top: 0.25rem!important; } .sw-padding-bottom-7xs { padding-bottom: 0.25rem!important; } .sw-padding-left-7xs { padding-left: 0.25rem!important; } .sw-padding-right-7xs { padding-right: 0.25rem!important; } .active\:sw-background-color-transparent:active { background-color: transparent!important; } .sw-text-color-13324b { color: #13324b!important; } .sw-width-11xs { width: 2rem!important; } .sw-margin-right-7xs { margin-right: 0.25rem!important; } .sw-margin-left-7xs { margin-left: 0.25rem!important; } .sw-text-align-left { text-align: left!important; } .sw-text-color-default {  } .sw-border-radius-full { border-radius: 9999rem!important; } .sw-background-color-default {  } .sw-padding-left-2xs { padding-left: 1.5rem!important; } .sw-padding-right-2xs { padding-right: 1.5rem!important; } .sw-border-color-2977c9 { border-color: #2977c9!important; } .sw-border-style-solid { border-style: solid!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-display-inline-block { display: inline-block!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\:sw-box-shadow-m:hover { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)!important; } } @media (min-width: 768px) { .m\:sw-margin-left-6xs { margin-left: 0.5rem!important; } } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-width-3xs { width: 12rem!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-background-color-f6d016 { background-color: #f6d016!important; } .sw-text-color-ffffff { color: #ffffff!important; } .sw-background-color-9ea5b4 { background-color: #9ea5b4!important; } .sw-border-color-9ea5b4 { border-color: #9ea5b4!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-background-repeat-no-repeat { background-repeat: no-repeat!important; } .sw-background-position-center { background-position: center!important; } .sw-background-size-cover { background-size: cover!important; }  .home_header3-fixed-top {  position: fixed;  top: 0;  right: 0;  left: 0;  z-index: 1030;  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1); }  #home_header3 .navbar-nav .dropdown-menu {  border: 0;  box-shadow: 0 1px 3px #00000014, 0 10px 40px -10px #00000059;  min-width: 180px; }  #home_header3 .navbar-nav .links-dropdown a {  padding-left: 1.5rem !important; }  #home_header3 .toggle-button{  display: none; }  #home_header3 .mob-menu-header{  padding: 8px 24px;  display: flex;  justify-content: space-between; }  #home_header3 .mob-menu-body{  height: 90%;  position: relative; }  #home_header3 .navigation-section{  padding: 10px 24px; }  #home_header3 .navigation-section p a{  width: 100%; }  #home_header3 .buttons-section{      margin: 24px;      display: flex;      justify-content: flex-start; }  #home_header3 .arrow {  position: absolute;  right: 15px;  top: 5px;  display: inline-block;  width: 8px;  height: 8px;  border-left: 2px solid #29394c;  border-top: 2px solid #29394c;  transform: rotate(225deg);  transition: .2s linear;  margin-top: 10px; }  #home_header3 .link{  background: #f5f5f5;  padding: 3px 10px; }  #home_header3 .collapsed.link{  background: none; }  #home_header3 .collapsed .arrow {  transform: rotate(135deg); }  #home_header3 .buttons-section button{  margin-left: 0!important; }  #home_header3 .navbar-close i{  font-size: 24px;  margin-top: 10px;  margin-right: 3px;  cursor: pointer; }  #home_header3 .mob-menu-content{  display: none; }  #home_header3 .nav-link.dropdown-toggle{      border-radius: 50%;      width: 24px;      height: 24px;      text-align: center;      line-height: 10px;      display: flex;      align-items: center;      justify-content: center;     } #home_header3 .nav-link.dropdown-toggle i{      position: relative;      left: 0;      top: 0;     } #home_header3 .dropdown-menu-profile {      left: -148px;      top: 25px;      border-radius: 0;      box-shadow: 0 1px 3px #00000014, 0 10px 40px -10px #00000059;      border: 0;     } #home_header3 .dropdown-menu-profile a{      text-decoration: none;      border-bottom: 1px solid rgba(0,0,0,.15);      padding: 6px 12px;     } #home_header3 .dropdown-menu{      min-width: 11rem!important;     } #home_header3 .nav-link.dropdown-toggle:after{      display: none;     } #home_header3 .mob-menu-body .dropdown-menu-profile  {      border-top: 1px solid #dedede;     } #home_header3 .navbar-nav .dropdown-menu-profile a:hover{      box-shadow: 0 1px 3px #00000014, 0 4px 5px -5px #00000059;     }  @media (max-width: 992px) {  #home_header3 .desktop-menu{   display: none;  } #home_header3 .dropdown-menu-profile {      box-shadow: none;     } #home_header3 .dropdown-menu-profile a{      border: 0;     }  #home_header3 .toggle-button{   display: block;  }   #home_header3 .mob-menu-content{   display: block;   position: fixed;   z-index: 5;   width: 100%;   height: 100%;   opacity: 0;   top:0;   left: 0;   background: #fff;   -webkit-transition: ease-in all 0.5s;   transition: ease-in all 0.5s;   -webkit-transform: translateX(200%);   -ms-transform: translateX(200%);   transform: translateX(200%);   }    #home_header3 .mob-menu-content.show{   display: block;   opacity: 1;   /*left: 0;*/   -webkit-transition: ease-in all 0.5s;   transition: ease-in all 0.5s;   -webkit-transform: translateX(0);   -ms-transform: translateX(0);   transform: translateX(0);   } }  @media (max-width: 414px) {  #home_header3 .buttons-section{       margin-left: 24px;       margin-right: 0;      } #home_header3 .buttons-section a{      margin-right: 10px;     } }  .navbar-dark .navbar-toggler-icon {  cursor: pointer;  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }  .navbar-light .navbar-toggler-icon {  cursor: pointer;  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; } 
+.sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-semibold { font-weight: 600!important; } .sw-border-radius-default {  } .sw-background-color-default {  } .sw-padding-left-xs { padding-left: 2rem!important; } .sw-padding-right-xs { padding-right: 2rem!important; } .sw-padding-top-5xs { padding-top: 0.75rem!important; } .sw-padding-bottom-5xs { padding-bottom: 0.75rem!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } @media (hover: hover) { .hover\:sw-box-shadow-m:hover { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)!important; } } .sw-margin-bottom-6xs { margin-bottom: 0.5rem!important; } .sw-margin-right-5xs { margin-right: 0.75rem!important; } .sw-display-inline-block { display: inline-block!important; } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-xs { padding-top: 2rem!important; } .sw-padding-bottom-2xl { padding-bottom: 6rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-font-size-5xl { font-size: 3rem!important; } .sw-text-color-000000 { color: #000000!important; } .sw-font-weight-default {  } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-line-height-normal { line-height: 1.5!important; } .sw-font-size-xl { font-size: 1.25rem!important; } .sw-padding-bottom-xs { padding-bottom: 2rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-percentage-width-full { width: 100%!important; } .sw-border-radius-none { border-radius: 0rem!important; } .sw-border-radius-l { border-radius: 0.5rem!important; } .sw-width-xs { width: 20rem!important; } .sw-border-style-solid { border-style: solid!important; } .sw-border-color-c0c0c0 { border-color: #c0c0c0!important; } .sw-box-shadow-none { box-shadow: none!important; } .sw-padding-left-5xs { padding-left: 0.75rem!important; } .sw-outline-none { outline: none!important; } .sw-font-size-l { font-size: 1.125rem!important; } .sw-background-color-000000 { background-color: #000000!important; } .sw-background-repeat-no-repeat { background-repeat: no-repeat!important; } .sw-background-size-cover { background-size: cover!important; } .sw-background-position-top { background-position: top!important; } .sw-background-attachment-fixed { background-attachment: fixed!important; }  #hero2 .sw-btn-success {  background: #22bc66 !important;  color: #fff !important; }   #hero2 .sw-btn-success .fa-check {  display: inline-block !important;  color: #fff !important;  position: relative !important;  left: 0.5rem !important; }  #hero2 .sw-input-invalid {  border: 2px solid red !important; }  #hero2 .sw-btn-spinner {  width: 1rem !important;  height: 1rem !important;  margin-left: 0.5rem !important; }
+.sw-font-size-4xl { font-size: 2.25rem!important; } .sw-text-color-ff4954 { color: #ff4954!important; } .sw-margin-right-2xs { margin-right: 1.5rem!important; } .sw-margin-top-7xs { margin-top: 0.25rem!important; } .sw-line-height-compact { line-height: 1!important; } .sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-default {  } .sw-line-height-normal { line-height: 1.5!important; } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-2xl { padding-top: 6rem!important; } .sw-padding-bottom-2xl { padding-bottom: 6rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-font-size-3xl { font-size: 1.875rem!important; } .sw-text-color-000000 { color: #000000!important; } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-font-size-xl { font-size: 1.25rem!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-percentage-width-3xs { width: 40%!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } .sw-border-radius-none { border-radius: 0rem!important; } .sw-background-repeat-repeat { background-repeat: repeat!important; } .sw-background-size-auto { background-size: auto!important; } .sw-background-position-center { background-position: center!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-text-color-2e7ef9 { color: #2e7ef9!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-margin-top-none { margin-top: 0rem!important; } .sw-margin-bottom-2xs { margin-bottom: 1.5rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-display-inline-block { display: inline-block!important; }  
+.sw-font-size-4xl { font-size: 2.25rem!important; } .sw-text-color-ff4954 { color: #ff4954!important; } .sw-margin-right-2xs { margin-right: 1.5rem!important; } .sw-margin-top-7xs { margin-top: 0.25rem!important; } .sw-line-height-compact { line-height: 1!important; } .sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-default {  } .sw-line-height-normal { line-height: 1.5!important; } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-2xl { padding-top: 6rem!important; } .sw-padding-bottom-2xl { padding-bottom: 6rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-font-size-3xl { font-size: 1.875rem!important; } .sw-text-color-000000 { color: #000000!important; } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-font-size-xl { font-size: 1.25rem!important; } .sw-text-color-333333 { color: #333333!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-percentage-width-2xs { width: 45%!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } .sw-border-radius-none { border-radius: 0rem!important; } .sw-background-repeat-repeat { background-repeat: repeat!important; } .sw-background-size-auto { background-size: auto!important; } .sw-background-position-center { background-position: center!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-text-color-2e7ef9 { color: #2e7ef9!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-margin-top-none { margin-top: 0rem!important; } .sw-margin-bottom-xl { margin-bottom: 5rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-display-inline-block { display: inline-block!important; }  
+.sw-font-size-m { font-size: 1rem!important; } .sw-text-color-000000 { color: #000000!important; } .sw-width-11xs { width: 2rem!important; } .sw-display-inline-block { display: inline-block!important; } .sw-min-width-6xs { min-width: 2rem!important; } .sw-margin-right-7xs { margin-right: 0.25rem!important; } .sw-text-align-center { text-align: center!important; } .sw-border-radius-s { border-radius: 0.125rem!important; } .sw-border-color-eaeff4 { border-color: #eaeff4!important; } .sw-border-style-solid { border-style: solid!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-padding-right-7xs { padding-right: 0.25rem!important; } .sw-padding-left-7xs { padding-left: 0.25rem!important; } .sw-padding-top-7xs { padding-top: 0.25rem!important; } .sw-padding-bottom-7xs { padding-bottom: 0.25rem!important; } .sw-opacity-2xs { opacity: 0.8!important; } .sw-font-family-default {  } .sw-font-weight-semibold { font-weight: 600!important; } .sw-line-height-loose { line-height: 2!important; } .sw-font-weight-light { font-weight: 300!important; } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-padding-left-none { padding-left: 0rem!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-l { padding-top: 4rem!important; } .sw-padding-bottom-l { padding-bottom: 4rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-text-color-default {  } .sw-font-weight-default {  } .sw-padding-top-3xs { padding-top: 1.25rem!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-width-4xs { width: 10rem!important; } .sw-font-size-l { font-size: 1.125rem!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-font-size-2xl { font-size: 1.5rem!important; } .sw-width-10xs { width: 3rem!important; }  
+
+</style>
+
+<link href="https://fonts.softr-files.com/google/api/css?family=Nunito+Sans:600&amp;display=swap" rel="stylesheet">
+<style>
+    .made-with-softr {
+        position: fixed;
+        z-index: 9999999;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .made-with-softr a {
+        width: 125px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+        border-radius: 4px;
+        z-index: 9999999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 8px;
+        color: #1f2b3f;
+        background: #ffffff;
+        box-sizing: content-box;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .made-with-softr a .made-with {
+        margin-left: 2px;
+    }
+
+    .made-with-softr a img {
+        width: 16px;
+    }
+
+    .made-with-softr .softr-word {
+        color: #3b85db;
+    }
+
+    .made-with-softr .dark-theme {
+        color: #ffffff;
+        background: #1f2b3f;
+    }
+
+    .made-with-softr .dark-theme .softr-word {
+        color: #ffb30b;
+    }
+</style>
+
+
+<!-- App Integrations -->
+<!-- Global site tag (gtag.js) - Google Analytics --><script data-iub-purposes="4" async="" src="https://www.googletagmanager.com/gtag/js?id=G-QE03PJV8R3"></script><script data-iub-purposes="4">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-QE03PJV8R3', { 'anonymize_ip': true });</script><!-- End Global site tag (gtag.js) - Google Analytics -->
+<!-- End Integrations -->
+
+
+
+<script>window['application_context'] = {}; window['application_context']['policies'] ={"numberOfSupportedCollaborators":5,"numberOfSupportedDomains":1,"canDisableSoftrBranding":false,"hasSoftrBrandingFooterBoundSupport":false,"numberOfDatasourceRecordsPerTable":1000,"numberOfInternalUsers":5,"numberOfExternalUsers":100,"supportedNumberOfMembershipUsers":100,"hasSignInWithEmailCode":false,"hasSignInWithSMSCode":false,"hasGoogleAuthenticationSupport":true,"hasSamlAuthenticationSupport":false,"hasOpenIdAuthenticationSupport":false,"hasUserLastSeenSupport":false,"hasMapSupport":true,"hasTableSupport":true,"hasCalendarSupport":false,"hasInboxBlockSupport":false,"hasKanbanSupport":false,"hasChartsSupport":false,"hasOrgChartBlockSupport":false,"hasTimelineBlockSupport":false,"numberOfDaysApplicationHistory":7,"hasCustomCodeSupport":false,"hasEmbedBlockSupport":false,"hasTransferApplicationsAcrossWorkspace":false,"hasPwaSupport":false,"hasSignatureFieldSupport":false,"hasTransferOwnershipSupport":null,"hasEditAirtableRecordsSupport":false,"hasMultiGroupEditAirtableRecordsSupport":false}; </script>
+
+<!-- App Custom Header Code -->
+<style>
+ .sw-font-size-5xl {
+    font-size: 3rem;
+  }
+  .sw-font-size-4xl {
+    font-size: 2.25rem;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if($(window).width() < 768) {
+       $('h1.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('h2.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('div.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('p.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('span.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+    }
+  });
+</script>
+<!-- End App Custom Header Code -->
+
+<!-- Page Custom Header Code -->
+
+<!-- End Page Custom Header Code -->
+
+<script>window['is401Page'] = false; </script>
+
+
+<script>
+    /** Image lineup on mobile **/
+    document.addEventListener("DOMContentLoaded", function () {
+        function changeImageDirectionsOnMobile() {
+
+            const classListSection = $('body>div>section')?.attr('class')?.split(/\s+/);
+            const textClassSection = classListSection?.find(cls => cls.startsWith('feature'));
+
+            const classListHeader = $('body>div>header')?.attr('class')?.split(/\s+/);
+            const textClassHeader = classListHeader?.find(cls => cls.startsWith('hero'));
+
+            /*If FEATURE block*/
+            if (textClassSection) {
+                findRowsWidthImageAndReverse(textClassSection)
+            }
+
+            /*If HERO block*/
+            if (textClassHeader) {
+                findRowsWidthImageAndReverse(textClassHeader)
+            }
+        }
+
+        function findRowsWidthImageAndReverse(textClass) {
+            const rowsWithImages = $('.' + textClass + ' .row.align-items-center').has('img').toArray();
+            const rowsWithLeftSideImages = rowsWithImages.filter(row => {
+                return $(row).children().first().children().first().prop("tagName") === 'IMG';
+            });
+
+
+            rowsWithLeftSideImages.forEach(row => {
+                if ($(window).width() <= 768) {
+                    row.classList.add('flex-column-reverse')
+                }
+            });
+        }
+
+        if ($(window).width() <= 768) {
+            changeImageDirectionsOnMobile();
+        }
+    });
+
+    /** BG Size on mobile **/
+    document.addEventListener("DOMContentLoaded", function () {
+        if ($(window).width() <= 768) {
+            var element = $('section.sw-background-size-auto, header.sw-background-size-auto');
+            element.removeClass('sw-background-size-auto');
+            element.css('background-size', 'cover');
+
+            $('section.sw-background-attachment-fixed, header.sw-background-attachment-fixed').removeClass('sw-background-attachment-fixed');
+        }
+    });
+
+    /** Disable zoom on mobile **/
+    document.addEventListener("DOMContentLoaded", function () {
+        if ($(window).width() <= 768) {
+            $('input.sw-font-size-s').removeClass('sw-font-size-s');
+            $('textarea.sw-font-size-s').removeClass('sw-font-size-s');
+            $('select.sw-font-size-s').removeClass('sw-font-size-s');
+        }
+    });
+
+    window.addEventListener('user-sign-out', (e) => {
+        const message = {
+            name: 'user-sign-out-triggered',
+        };
+
+        window.parent.postMessage(message, '*');
+    });
+
+</script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1141.0" data-gr-ext-installed="">
+
+
+<div data-appid="f3d6f435-f7db-4345-b8af-c695975ef135" data-pageid="db748e99-01f1-43e2-bde1-b8f3af9577bb" data-workspaceid="4f3e5970-f949-43d3-a24a-cdf976ff45de" data-paymentplan="" class="content">
+    <nav id="home_header3" class=" navbar nav navbar-expand-lg navbar-light header2-d2269f8b-68c5-4f20-a71d-2a5b5358698d sw-background-color-ffffff sw-padding-top-6xs sw-padding-bottom-6xs sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000"><div class="container"><!-- Logo --><a class="navbar-brand" href="/"><img class="sw-width-3xs " src="https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/9eb60a25-cb26-4177-9f0a-579f3a1b6e60.jpeg" alt="Publish your designed things."></a><div class="desktop-menu text-center justify-content-end" id="navbarSupportedContent"><ul class="navbar-nav align-items-center  one-button"><li class="nav-item "><a class="position-relative  sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#hero2" target="">   Problem</a><div class="shadow border-0 dropdown-menu links-dropdown" aria-labelledby="navbarDropdown-0" style="background-color: rgb(255, 255, 255);"></div></li><li class="nav-item "><a class="position-relative  sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#feature2" target="">   bumble Smash</a><div class="shadow border-0 dropdown-menu links-dropdown" aria-labelledby="navbarDropdown-1" style="background-color: rgb(255, 255, 255);"></div></li><li class="nav-item "><a class="position-relative  sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#feature4" target="">   About</a><div class="shadow border-0 dropdown-menu links-dropdown" aria-labelledby="navbarDropdown-2" style="background-color: rgb(255, 255, 255);"></div></li><li class="nav-item "><a class="position-relative  sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#footer1" target="">   Links</a><div class="shadow border-0 dropdown-menu links-dropdown" aria-labelledby="navbarDropdown-3" style="background-color: rgb(255, 255, 255);"></div></li><li class="nav-item pt-lg-0 pt-3"><a data-element="button" target="" class="sw-font-size-m sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-border-radius-full sw-background-color-f6d016 sw-padding-left-2xs sw-padding-right-2xs sw-padding-top-6xs sw-padding-bottom-6xs sw-border-color-2977c9 sw-border-style-solid sw-border-width-xs sw-letter-spacing-normal sw-display-inline-block sw-text-decoration-no-underline hover:sw-text-decoration-no-underline hover:sw-box-shadow-m sw-display-inline-block m:sw-margin-left-6xs" href="https://forms.gle/wmqn7H7aSHC7sqsv9">Rate this Idea</a></li></ul></div><!-- mobile toggle --><div class="toggle-button"><span class="navbar-toggler-icon"></span></div><div class="mob-menu-content" style="background-color: rgb(255, 255, 255);"><div class="mob-menu-header"><a class="navbar-brand" href="/"><img class="sw-width-3xs " src="https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/9eb60a25-cb26-4177-9f0a-579f3a1b6e60.jpeg" alt="Publish your designed things."></a><span class="navbar-close"> <i class="fa fa-fw fa-times" aria-hidden="true"></i></span></div><div class="mob-menu-body"><div class="navigation-section"><a class="link collapsed d-block sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#hero2" style="background-color: rgb(255, 255, 255);">Problem</a><a class="link collapsed d-block sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#feature2" style="background-color: rgb(255, 255, 255);">bumble Smash</a><a class="link collapsed d-block sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#feature4" style="background-color: rgb(255, 255, 255);">About</a><a class="link collapsed d-block sw-font-size-s sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline" href="#footer1" style="background-color: rgb(255, 255, 255);">Links</a></div><div class="buttons-section"><a data-element="button" target="" class="sw-font-size-m sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-border-radius-full sw-background-color-f6d016 sw-padding-left-2xs sw-padding-right-2xs sw-padding-top-6xs sw-padding-bottom-6xs sw-border-color-2977c9 sw-border-style-solid sw-border-width-xs sw-letter-spacing-normal sw-display-inline-block sw-text-decoration-no-underline hover:sw-text-decoration-no-underline hover:sw-box-shadow-m sw-display-inline-block m:sw-margin-left-6xs" href="https://forms.gle/wmqn7H7aSHC7sqsv9">Rate this Idea</a></div></div></div></div></nav><header id="hero2" style="background-image: url(https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/af2cdc1d-5b63-4533-9947-d8f9170079b4.png);" class="hero2-1c6ace35-cda2-4bed-80ec-1cbd73c8b0ac sw-background-color-ffffff sw-padding-top-xs sw-padding-bottom-2xl sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000  sw-background-repeat-no-repeat sw-background-size-cover sw-background-position-top sw-background-attachment-fixed "><div class="container"><div class="row align-items-center"><div class="col-lg-6 pb-5 pb-lg-0 text-center text-lg-left"><h1 class="sw-font-size-5xl sw-text-color-000000 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal ">Tired of not getting a match?</h1><p class="sw-font-size-xl sw-text-color-000000 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-xs sw-letter-spacing-normal sw-line-height-loose ">Even after swiping hundreds of profiles, struggling to get a match?
+Read-on to discover a new way to choose your match.</p><div class="d-flex justify-content-center justify-content-lg-start flex-wrap"><input id="sw-email-capture-email-input" type="text" class="sw-font-size-m sw-text-color-default sw-font-family-default sw-border-radius-l sw-width-xs sw-padding-top-5xs sw-padding-bottom-5xs sw-border-style-solid sw-border-width-xs sw-border-color-c0c0c0 sw-box-shadow-none sw-margin-bottom-6xs sw-margin-right-5xs sw-display-inline-block sw-padding-left-5xs sw-outline-none" placeholder="Enter your email address"><a data-element="button" id="sw-email-capture-submit-btn" class="sw-font-size-l sw-text-color-default sw-font-family-default sw-font-weight-semibold sw-border-radius-l sw-background-color-000000 sw-padding-left-xs sw-padding-right-xs sw-padding-top-5xs sw-padding-bottom-5xs sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline hover:sw-box-shadow-m sw-margin-bottom-6xs sw-margin-right-5xs sw-display-inline-block" href="javascript:void(0);">I'm interested<div class="spinner-border sw-btn-spinner d-none text-light" role="status"><span class="sr-only">Loading...</span></div><i class="fa fa-fw fa-check d-none" aria-hidden="true"></i></a></div></div><div class="col-lg-6 text-center"><img src="https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/963713c6-010b-40f7-8ff4-8251129c5184.jpeg" class="sw-percentage-width-full sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-border-radius-none  mx-auto d-block" alt="Image alt"></div></div></div></header><section id="feature2" style="background-image: url(https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/8df6bea6-e5f9-4d0c-a33b-48232fc7ae3c.png);" class="feature3-672b036f-0755-47c9-b58d-c17e70c1286a sw-background-color-ffffff sw-padding-top-2xl sw-padding-bottom-2xl sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000  sw-background-repeat-repeat sw-background-size-auto sw-background-position-center sw-background-attachment-scroll "><div class="container"><div class="row align-items-center"><div class="col-lg-6 text-center"><img src="https://drive.google.com/file/d/15ehotDPViAFQvhoO6l4LSFbjtygLBu8O/view?usp=sharing" class="sw-percentage-width-3xs sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-border-radius-none  mx-auto d-block" alt=""></div><div class="col-lg-6 text-center text-lg-left pt-5 pt-lg-0"><h2 class="sw-font-size-3xl sw-text-color-000000 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal ">Introducing 
+Bumble Smash </h2><p class="sw-font-size-xl sw-text-color-000000 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-none sw-letter-spacing-normal sw-line-height-loose ">Mindless swiping has become old and boring.
+Welcome to a new reference based swiping to help choose your match and step-up your game.
+Swipe right on any one of the two profiles that will be shown to you.
+
+</p><!-- Features --><div class="text-left d-inline-block"></div><p><a target="_blank" href="https://www.figma.com/proto/RNz44znqCCf26dkoazojjr/Bumble-wireframe?page-id=0%3A1&amp;node-id=2%3A6&amp;viewport=241%2C48%2C0.12&amp;scaling=min-zoom&amp;starting-point-node-id=2%3A6" class="sw-font-size-xl sw-text-color-2e7ef9 sw-font-family-default sw-font-weight-medium sw-margin-top-none sw-margin-bottom-2xs sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline sw-display-inline-block">Discover Smash<i class="fa fa-fw fa-arrow-right ml-2"></i></a></p></div></div></div></section><section id="feature4" style="background-image: url(https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/adcf8996-3196-4430-8070-39a22d58e232.png);" class="feature3-7a7ff0e7-5d25-480d-b1c3-7f17cb2f5df6 sw-background-color-ffffff sw-padding-top-2xl sw-padding-bottom-2xl sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000  sw-background-repeat-repeat sw-background-size-auto sw-background-position-center sw-background-attachment-scroll "><div class="container"><div class="row align-items-center"><div class="col-lg-6 text-center text-lg-left pb-5 pb-lg-0"><h2 class="sw-font-size-3xl sw-text-color-000000 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal ">Can't choose ?</h2><p class="sw-font-size-xl sw-text-color-333333 sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-none sw-letter-spacing-normal sw-line-height-loose ">Don't worry we got you covered
+Profiles that you miss on will not disappear forever and might appear again.
+If you are destined to match, even God can't stop that, let alone our algorithm.</p><!-- Features --><div class="text-left d-inline-block"></div></div><div class="col-lg-6 text-center"><img src="https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/a6d07d61-e24c-4999-994e-ef3f27ebfb20.png" class="sw-percentage-width-2xs sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-border-radius-none  mx-auto d-block" alt=""></div></div></div></section><footer id="footer1" class="footer2-82bf16b9-13b0-41db-aaa9-2aa0174db4d2 sw-background-color-ffffff sw-padding-top-l sw-padding-bottom-l sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 "><div class="container"><div class="row"><div class="col-12 col-md-5 "><!-- Logo --><a href="/"><img class="sw-width-4xs " src="https://softr-prod.imgix.net/applications/f3d6f435-f7db-4345-b8af-c695975ef135/assets/9eb60a25-cb26-4177-9f0a-579f3a1b6e60.jpeg" alt="Publish your designed things."></a><!-- Description --><p class="sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-3xs sw-padding-bottom-none sw-line-height-loose "></p></div><!-- Link Groups --><div class="pt-4 pt-md-0 col-6 col-md-3  offset-md-1"><h6 class="sw-font-size-l sw-text-color-000000 sw-font-family-default sw-font-weight-medium sw-line-height-loose "> Hi, I am Manasa Chandra, an undergrad at IIT Guwahati with a keen interest in product management. Let's connect on LinkedIn or via e-mail!</h6></div><div class="pt-4 pt-md-0 col-6 col-md-3  "><h6 class="sw-font-size-m sw-text-color-000000 sw-font-family-default sw-font-weight-semibold sw-line-height-loose "></h6></div></div><!-- Social Icons --><div class="row"><div class="col-12"><div class="text-left pt-4 pt-sm-2"><!-- ToDo Styles --><a href="https://www.linkedin.com/in/manasabanoth" target="_blank" class="sw-font-size-2xl sw-text-color-000000 sw-width-10xs sw-display-inline-block sw-min-width-6xs sw-margin-right-7xs sw-text-align-center sw-border-radius-s sw-border-color-eaeff4 sw-border-style-solid sw-border-width-xs sw-padding-right-7xs sw-padding-left-7xs sw-padding-top-7xs sw-padding-bottom-7xs sw-opacity-2xs"><i class="fab fa-linkedin-in"></i></a><!-- ToDo Styles --><a href="mailto:banothmanasachandra" target="_blank" class="sw-font-size-2xl sw-text-color-000000 sw-width-10xs sw-display-inline-block sw-min-width-6xs sw-margin-right-7xs sw-text-align-center sw-border-radius-s sw-border-color-eaeff4 sw-border-style-solid sw-border-width-xs sw-padding-right-7xs sw-padding-left-7xs sw-padding-top-7xs sw-padding-bottom-7xs sw-opacity-2xs"><i class="fas fa-envelope"></i></a><!-- ToDo Styles --><a href="https://instagram.com/manasa_chandra_banoth?igshid=MzMyNGUyNmU2YQ==" target="_blank" class="sw-font-size-2xl sw-text-color-000000 sw-width-10xs sw-display-inline-block sw-min-width-6xs sw-margin-right-7xs sw-text-align-center sw-border-radius-s sw-border-color-eaeff4 sw-border-style-solid sw-border-width-xs sw-padding-right-7xs sw-padding-left-7xs sw-padding-top-7xs sw-padding-bottom-7xs sw-opacity-2xs"><i class="fab fa-instagram"></i></a></div></div></div></div></footer>
+</div>
+
+<script>
+
+    function rgb2hex(orig) {
+        var rgb = orig.replace(/\s/g, "").match(/^rgba?\((\d+),(\d+),(\d+)/i);
+        return rgb && rgb.length === 4
+            ? "#" +
+            ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) +
+            ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) +
+            ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2)
+            : orig;
+    }
+
+    function lightOrDark(color) {
+        // Variables for red, green, blue values
+        var r, g, b, hsp;
+
+        // Check the format of the color, HEX or RGB?
+        if (color.match(/^rgb/)) {
+            // If RGB --> store the red, green, blue values in separate variables
+            color = color.match(
+                /^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/
+            );
+
+            r = color[1];
+            g = color[2];
+            b = color[3];
+        } else {
+            // If hex --> Convert it to RGB: http://gist.github.com/983661
+            color = +(
+                "0x" + color.slice(1).replace(color.length < 5 && /./g, "$&$&")
+            );
+
+            r = color >> 16;
+            g = (color >> 8) & 255;
+            b = color & 255;
+        }
+
+        // HSP (Highly Sensitive Poo) equation from http://alienryderflex.com/hsp.html
+        hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b));
+
+        // Using the HSP value, determine whether the color is light or dark
+        if (hsp > 127.5) {
+            return "light";
+        } else {
+            return "dark";
+        }
+    }
+
+</script>
+
+    <div class="made-with-softr">
+        <a href="https://www.softr.io/?via=madewithbadge" target="_blank" title="Client Portal | Internal Tools | Web App Builder | Free Website Builder" class="dark-theme">
+            <img src="https://assets.softr-files.com/assets/images/softr_logo/softr_logo_icon_only.svg" alt="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+            <span class="made-with">Made with</span>
+            <span class="softr-word">Softr</span>
+        </a>
+    </div>
+<script>
+    (() => {
+        function createBudgetWrapperDivEl() {
+            const divEl = document.createElement("div");
+            divEl.setAttribute("class", "made-with-softr");
+
+            divEl.style.setProperty('display', 'block', 'important');
+            divEl.style.setProperty('opacity', '1', 'important');
+            divEl.style.setProperty('visibility', 'visible', 'important');
+
+            divEl.innerHTML = `
+                           <a href="https://www.softr.io/?via=madewithbadge" target="_blank" title="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+                              <img src="https://assets.softr-files.com/assets/images/softr_logo/softr_logo_icon_only.svg" alt="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+                              <span class="made-with">Made with</span>
+                              <span class="softr-word">Softr</span>
+                            </a>`;
+            document.body.appendChild(divEl);
+        }
+
+        function isInCurrentSection(elTop, elBottom) {
+            const innerHeight = window.innerHeight - 30;
+            return elTop < innerHeight && elBottom > innerHeight;
+        }
+
+            function setRightTheme(sections, softrEl) {
+                sections.forEach(item => {
+                    const elementTop = item.getBoundingClientRect().top;
+                    const elementBottom = item.getBoundingClientRect().bottom;
+
+                    if (isInCurrentSection(elementTop, elementBottom)) {
+                        const documentBodyColor = window
+                            .getComputedStyle(item)
+                            .getPropertyValue("background-color");
+
+                        const bgColor = lightOrDark(rgb2hex(documentBodyColor));
+
+                        if (bgColor === "light") {
+                            softrEl.classList.add("dark-theme");
+                        } else {
+                            softrEl.classList.remove("dark-theme");
+                        }
+                    }
+                });
+            }
+
+            function isHidden(el) {
+                if (!el) {
+                    return true;
+                }
+                const style = window.getComputedStyle(el);
+                return (style.display === 'none');
+            }
+
+            function init() {
+                const madeWithSoftrEl = document.querySelector(".made-with-softr");
+                const softrEl = document.querySelector(".made-with-softr a");
+
+                if (!madeWithSoftrEl) {
+                    createBudgetWrapperDivEl();
+                }
+
+                if (!softrEl && madeWithSoftrEl) {
+                    madeWithSoftrEl.remove();
+                    createBudgetWrapperDivEl();
+                }
+
+                if (isHidden(madeWithSoftrEl) || isHidden(softrEl)) {
+                    madeWithSoftrEl.remove();
+                    createBudgetWrapperDivEl();
+                }
+
+                const headers = document.querySelectorAll("header");
+                const sections = document.querySelectorAll("section");
+                const footers = document.querySelectorAll("footer");
+                const allSections = [...headers, ...sections, ...footers]
+                setRightTheme(allSections, softrEl);
+
+                document.addEventListener("scroll", () => {
+                    setRightTheme(allSections, softrEl);
+                });
+            }
+
+            function removeLogoWithSoftr() {
+                if (location.origin === 'https://www.softr.io') {
+                    if (document.body.clientWidth <= 576) {
+                        /* Disable for now we need better solution */
+                        /*  document.getElementsByClassName('made-with-softr')[0].style.display = 'none'; */
+                    }
+                }
+            }
+
+            init();
+            removeLogoWithSoftr();
+            setInterval(() => {
+                init();
+                removeLogoWithSoftr();
+            }, (Math.floor(2 + Math.random() * 5)) * 1000);
+        })();
+    </script>
+
+<!-- Stick footer to the bottom if the App is shorter than the viewport -->
+<script>
+    (() => {
+        const allBlocks = document.querySelector('[data-appid]').children;
+        let blocksCountToProcess = allBlocks.length;
+        let appHeight = 0;
+        let last = allBlocks[allBlocks.length - 1];
+        let prelast = blocksCountToProcess >= 2 ? allBlocks[allBlocks.length - 2] : allBlocks[allBlocks.length - 1];
+
+        // in case of last child is not a block but SOFTR-BRANDING DIV
+        if(last && last.classList.contains('softr-branding')) {
+            if(blocksCountToProcess > 2) {
+                last = allBlocks[allBlocks.length - 2];
+                prelast = allBlocks[allBlocks.length - 3];
+            }
+        }
+
+        function calculateAppHeightAndStickFooterToTheBottom() {
+            [...allBlocks].forEach((block) => {
+                let blockHrId = block.getAttribute('id');
+                if (isReactBlock(block)) {
+                    // react blocks size will be changed, need to wait
+                    // mark block as processed
+                        window.addEventListener('block-loaded-' + blockHrId, function () {
+                            if(isDynamicBlock(block)) {
+                                window.addEventListener('get-records-' + blockHrId, function () {
+                                    setTimeout(() => {
+                                        blocksCountToProcess -= 1;
+                                        if (!isVerticalHeader(block)) {
+                                            appHeight += block.offsetHeight;
+                                        }
+                                        stickFooterToTheBottom();
+                                    }, 90);
+                                });
+                            } else
+                            {
+                                setTimeout(() => {
+                                    blocksCountToProcess -= 1;
+                                    if (!isVerticalHeader(block)) {
+                                        appHeight += block.offsetHeight;
+                                    }
+                                    stickFooterToTheBottom();
+                                }, 90);
+                            }
+                        });
+
+
+                } else { // non-rect blocks size can be calculated here
+                    blocksCountToProcess -= 1;
+                    if(!isVerticalHeader(block)){
+                        appHeight += block.offsetHeight;
+                    }
+                }
+                stickFooterToTheBottom();
+            });
+        }
+
+        function stickFooterToTheBottom() {
+            // if not all blocks size is calculated, wait
+            if (blocksCountToProcess !== 0) {
+                return;
+            }
+
+            // in case of method works after resize, we need to remove old DIV
+            let extraDiv = document.querySelector('.extra-div');
+            if (extraDiv) {
+                extraDiv.remove();
+            }
+
+            // if app height is bigger then window, no need to push footer down, as it's already there
+            if (appHeight > window.innerHeight) {
+                return;
+            }
+
+            if(last){
+                let dataBlockAttribute = last.getAttribute('data-block');
+                if(!dataBlockAttribute) {
+                    return;
+                }
+                let lastBlockType = dataBlockAttribute.slice(0, 6);
+                // if there no footer, nothing to do
+                if (lastBlockType !== 'footer') {
+                    return;
+                }
+            }
+
+            const divEl = document.createElement("div");
+            divEl.setAttribute("class", "extra-div");
+            if(prelast.firstChild){
+                divEl.style.background = window.getComputedStyle(isReactBlock(prelast) ? prelast.firstChild : prelast).getPropertyValue("background-color");
+            }
+            // calculate size for dummy div
+            divEl.style.height = (window.innerHeight - appHeight) + 'px';
+            divEl.style.width = '100%';
+
+            document.querySelector('[data-appid]').insertBefore(divEl, last);
+        }
+
+        function isVerticalHeader (block){
+            //react vertical header structure is:  div > div
+            //react horizontal header structure is:  div > header
+            //non react vertical header structure is:  div > nav
+            //non react horizontal header structure is:  nav
+            if(block.hasAttribute('category')){
+                if (block.getAttribute('category') !== 'Header'){
+                    return false;
+                }
+            }
+            if (block.tagName.toLowerCase() === 'nav'){
+                return false;
+            }
+
+            if(block.tagName.toLowerCase() === 'section') {
+                return false;
+            }
+
+            let firstElementChild = block.firstElementChild;
+            return firstElementChild && (firstElementChild.tagName.toLowerCase() === 'div' || firstElementChild.tagName.toLowerCase() === 'nav');
+        }
+
+        function isReactBlock (block) {
+            return block.tagName.toLowerCase() === 'div';
+        }
+
+        function isDynamicBlock (block) {
+            const blockType = block.getAttribute('data-block');
+            return blockType.startsWith('table') ||
+                blockType.startsWith('list') ||
+                blockType.startsWith('list-details' ) ||
+                blockType.startsWith('inbox') ||
+                blockType.startsWith('calendar') ||
+                blockType.startsWith('chart') ||
+                blockType.startsWith('kanban') ||
+                blockType.startsWith('summary') ||
+                blockType.startsWith('map') ||
+                blockType.startsWith('twitter')
+        }
+
+        calculateAppHeightAndStickFooterToTheBottom();
+
+        // after resize check if footer needs to be moved down
+        window.addEventListener('resize', () => {
+            stickFooterToTheBottom();
+        });
+
+
+    })();
+</script>
+
+
+
+
+<!-- Scripts -->
+<script src="https://assets.softr-files.com/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://assets.softr-files.com/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://assets.softr-files.com/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://assets.softr-files.com/libs/micromodal/0.4.10/micromodal.min.js"></script>
+
+<script>
+    /** this function is called from list blocks (do not delete) **/
+    function openSwModal(url, size) {
+        MicroModal.init({
+            disableScroll: true,
+            awaitOpenAnimation: true,
+            awaitCloseAnimation: true
+        });
+
+        MicroModal.show("sw-modal");
+
+        const modalElem = document.querySelector('#sw-modal-content');
+        let loadingElem = modalElem.querySelector('.sw-modal-loading');
+
+        if (!loadingElem) {
+            modalElem.innerHTML += `<i class="sw-modal-loading fas fa-sync"></i>`;
+            loadingElem = modalElem.querySelector('.sw-modal-loading');
+            loadingElem.style.animation = 'rotation 900ms infinite linear';
+            loadingElem.style.position = 'absolute';
+        } else {
+            loadingElem?.remove();
+        }
+
+        const iframeElem = document.querySelector(".sw-modal-iframe");
+        const modalContainer = document.querySelector(".sw-modal-container");
+
+        iframeElem.onload = function () {
+            loadingElem?.remove();
+        };
+
+        const viewModeParam = "viewMode=modal";
+        const urlIsLocal = url.startsWith('#') || url.startsWith('/') || url.startsWith(window.location.origin);
+        const modalUrl = urlIsLocal ? (url.indexOf("?") !== -1 ? url + "&" + viewModeParam : url + "?" + viewModeParam) : url;
+        iframeElem.setAttribute("src", modalUrl);
+
+        modalContainer.classList.remove('sw-modal-size-sm', 'sw-modal-size-md', 'sw-modal-size-lg', 'sw-modal-size-xl');
+        modalContainer.classList.add('sw-modal-size-' + size);
+
+        setTimeout(() => {
+            // Add event listener to detect when the modal is closed
+            const closeButton = document.querySelector('.sw-modal-close');
+            const backdrop = document.querySelector('.sw-modal-overlay');
+
+            closeButton.addEventListener('click', resetIframe);
+            backdrop.addEventListener('click', resetIframe);
+        }, 1000)
+
+    }
+
+    const resetIframe = () => {
+        const iframeElem = document.querySelector('.sw-modal-iframe');
+        iframeElem.removeAttribute('src');
+    }
+</script>
+
+<script>
+    /** Bugfix on multiple ?recordId= issue **/
+    setInterval(function () {
+        $('section a').each(function () {
+            const href = $(this).attr('href');
+            if (href && href.includes('?recordId=')) {
+                const countOfRecords = (href.match(/\?recordId=/g) || []).length;
+                if (countOfRecords > 1) {
+                    const index = href.lastIndexOf('?recordId=');
+                    const cleanedHref = href.substring(0, index);
+                    $(this).attr('href', cleanedHref);
+                }
+            }
+        });
+    }, 1000);
+</script>
+
+<script type="text/javascript">
+    if (window.jQuery && window.jQuery.ajaxSetup) {
+        window.jQuery.ajaxSetup({
+            beforeSend: function (xhr, settings) {
+                if (settings && settings.url && (
+                    settings.url.includes('/integrations/airtable/')
+                    || settings.url.includes('/v1/applications/f3d6f435-f7db-4345-b8af-c695975ef135')
+                    || settings.url.includes('/v1/comments')
+                    || settings.url.includes('/forms/form-to-email'))
+                ) {
+                    xhr.setRequestHeader('softr-page-id', 'db748e99-01f1-43e2-bde1-b8f3af9577bb');
+                }
+            }
+        });
+    }
+
+    window['home_header3'] = {}; ;(function () {   $('.navbar-toggler-icon').click(function () {  $('.mob-menu-content').toggleClass('show');   });   $('.navbar-close').click(function () {  $('.mob-menu-content').toggleClass('show')   });    oneButtonView($(window));   $(window).on('resize', function () {  var win = $(this);  oneButtonView(win)   });    /* close the mobile menu */   $('.mob-menu-body a').click(function () {  if($(this).attr('aria-controls')) {   return;  }  $('.mob-menu-content').toggleClass('show');   });    var bgColor = window.getComputedStyle(document.querySelector('nav#home_header3'), null).getPropertyValue('background-color');   if (lightOrDark(bgColor) === 'dark') {  $('nav#home_header3').removeClass('navbar-light');  $('nav#home_header3').addClass('navbar-dark');   $('#home_header3 .navbar-close i').css('color', '#ffffff');   $('#home_header3 .arrow').css('border-left', '2px solid #ffffff');  $('#home_header3 .arrow').css('border-top', '2px solid #ffffff');   }    $('#home_header3 a.dropdown-item').hover(function () {  $(this).css('background-color', bgColor);   });    profileIconSizeCalculation();    $('#home_header3 .navbar-nav .dropdown-menu').css('background-color', bgColor);   $('#home_header3 .mob-menu-content').css('background-color', bgColor);   $('#home_header3 .link').css('background-color', bgColor);     function lightOrDark(color) {   /* Variables for red, green, blue values */  var r, g, b, hsp;   /* Check the format of the color, HEX or RGB? */  if (color.match(/^rgb/)) {     /* If HEX --> store the red, green, blue values in separate variables */    color = color.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/);     r = color[1];    g = color[2];    b = color[3];  }  else {     /* If RGB --> Convert it to HEX: http://gist.github.com/983661 */    color = +("0x" + color.slice(1).replace(   color.length < 5 && /./g, '$&$&'));     r = color >> 16;    g = color >> 8 & 255;    b = color & 255;  }   /* HSP (Highly Sensitive Poo) equation from http://alienryderflex.com/hsp.html */  hsp = Math.sqrt(    0.299 * (r * r) +    0.587 * (g * g) +    0.114 * (b * b)  );   /* Using the HSP value, determine whether the color is light or dark */  if (hsp > 127.5) {     return 'light';  }  else {     return 'dark';  }   }    function oneButtonView(win) {  if (win.width() <= 992) {    if ($('.navbar-nav').hasClass('empty-links') && $('.navbar-nav').hasClass('one-button')) {   $('.desktop-menu').show();   $('.toggle-button').hide();    }  }   }    function signout() {  deleteCookie('jwtToken');  window.location.href = '/';   }    function deleteCookie(name) {  document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC";   }    function profileIconSizeCalculation(){  const headerLinks = document.querySelector('nav#home_header3 .nav-item a');  if(!headerLinks) {    return;  }  const fSize = window.getComputedStyle(headerLinks, null).getPropertyValue('font-size');  if(fSize <= '16px'){    $('#home_header3 .nav-item.dropdown a.profile-dropdown-toggle').css({   'width': '24px',   'height': '24px',    });  } else if(fSize > '16px' && fSize <= '24px')  {    $('#home_header3 .nav-item.dropdown a.profile-dropdown-toggle').css({   'width': '30px',   'height': '30px',    });  }else {    $('#home_header3 .nav-item.dropdown a.profile-dropdown-toggle').css({   'width': '34px',   'height': '34px',    });  }   }    $("a[href='action:signout']").click(function(event) {  event.preventDefault();  signout();   });  })();  window['hero2'] = {}; ;(function() {    var emailInputSelector = '#hero2 #sw-email-capture-email-input';  var submitButtonSelector = '#hero2 #sw-email-capture-submit-btn';  var zapierWebhookUrl = '';  var integromatWebhookUrl = '';  var mailchimpUrl = '';  var parsedMailchimpUrl = parseUrl(mailchimpUrl.replace(/&amp;/g, '&'));  var destinationEmail = 'sahilnair1699@gmail.com';    function isEmail(email) {   var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,12})?$/;   return email && emailReg.test(email);  }   function parseUrl(url) {   var parser = document.createElement('a'),    searchObject = {},    queries, split, i;    parser.href = url;    queries = parser.search.replace(/^\?/, '').split('&');   for( i = 0; i < queries.length; i++ ) {    split = queries[i].split('=');    searchObject[split[0]] = split[1];   }   return {    protocol: parser.protocol,    host: parser.host,    hostname: parser.hostname,    port: parser.port,    pathname: parser.pathname,    search: parser.search,    searchObject: searchObject,    hash: parser.hash   };  }   function collectEmailInMailchimp(email, parsedMailchimpUrl, successCallback, errorCallback) {   $.ajax({    url: 'https://' + parsedMailchimpUrl.hostname + '/subscribe/post-json?u=' + parsedMailchimpUrl.searchObject.u + '&id=' + parsedMailchimpUrl.searchObject.id + '&c=?',    type: 'GET',    data: 'EMAIL=' + email,    dataType: 'jsonp',    contentType: 'application/json; charset=utf-8',    success: function (data) {     successCallback();    },    error: function (error) {     console.log(error);     errorCallback();    }    });  }   function forwardToEmail(email, destinationEmail, successCallback, errorCallback) {   var payload = {"attributes": {'EMAIL': email, 'PAGE_AND_SECTION': window.location.href + '#hero2' }};   $.ajax({    url: window.location.origin + '/api/v1/applications/forms/form-to-email/' + destinationEmail,    type: 'POST',    data: JSON.stringify(payload),    contentType: 'application/json; charset=utf-8',    success: function (data) {     console.log(data);     successCallback();    },    error: function (error) {     console.log(error);     errorCallback();    }    });  }   function sendToZapierWebhook(email, zapierWebhookUrl, successCallback, errorCallback) {   var payload = {'EMAIL': email, 'PAGE_AND_SECTION': window.location.href + '#hero2' };   $.ajax({    url: zapierWebhookUrl,    type: 'POST',    data: JSON.stringify(payload),    success: function (data) {     console.log(data);     successCallback();    },    error: function (error) {     console.log(error);     errorCallback();    }    });  }   function sendToIntegromatWebhook(email, integromatWebhookUrl, successCallback, errorCallback) {   var payload = {'EMAIL': email, 'PAGE_AND_SECTION': window.location.href + '#hero2' };   $.ajax({    url: integromatWebhookUrl,    type: 'POST',    data: JSON.stringify(payload),    contentType: 'application/json; charset=utf-8',    success: function (data) {     console.log(data);     successCallback();    },    error: function (error) {     console.log(error);     errorCallback();    }    });  }   function handleSuccess() {   $(submitButtonSelector + ' .sw-btn-spinner').addClass('d-none');   $(submitButtonSelector).addClass('sw-btn-success');    setTimeout(function () {    $(submitButtonSelector).removeClass('sw-btn-success');    $(emailInputSelector).val('');   }, 2000);  }   function handleFailure() {   $(emailInputSelector).addClass('sw-input-invalid');  }   $(submitButtonSelector).click(function (e) {   e.preventDefault();    var email = $(emailInputSelector).val();    /* validate the input */   $(emailInputSelector).removeClass('sw-input-invalid');   if(!isEmail(email)) {    $(emailInputSelector).addClass('sw-input-invalid');    return;   }    if(!mailchimpUrl && !destinationEmail && !zapierWebhookUrl && !integromatWebhookUrl) {    return;   }    $(submitButtonSelector + ' .sw-btn-spinner').removeClass('d-none');    if(mailchimpUrl) {    collectEmailInMailchimp(email, parsedMailchimpUrl, handleSuccess, handleFailure);   } else if(zapierWebhookUrl) {    sendToZapierWebhook(email, zapierWebhookUrl, handleSuccess, handleFailure);   } else if(integromatWebhookUrl) {    sendToIntegromatWebhook(email, integromatWebhookUrl, handleSuccess, handleFailure);   } else {    forwardToEmail(email, destinationEmail, handleSuccess, handleFailure);   }  });  })(); window['feature2'] = {}; window['feature4'] = {}; window['footer1'] = {}; 
+    
+</script>
+
+<!-- Page Custom Footer Code -->
+
+<!-- End Page Custom Footer Code -->
+
+<!-- App Custom Footer Code -->
+
+<!-- End App Custom Footer Code -->
+
+<script src="https://assets.softr-files.com/libs/iframe-resizer/4.2.11/iframeResizer.contentWindow.min.js" crossorigin="anonymous"></script>
+
+<!-- Localhost -->
+<script type="text/javascript">
+    if (window.location.hostname === 'localhost') {
+        if (getUrlParam('domain')) {
+            setCookie('serverName', getUrlParam('domain'), 30);
+        }
+    }
+
+    function setCookie(name, value, days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/;" + "SameSite=None; Secure";
+    }
+
+    function getUrlParam(name) {
+        const url = new URL(window.location.href);
+        let param;
+        for (var key of url.searchParams.keys()) {
+            if (key.toLowerCase() === name.toLowerCase()) {
+                param = url.searchParams.get(name);
+                break;
+            }
+        }
+        return param;
+    }
+</script>
+
+<!-- Modal HTML -->
+<div id="sw-modal" class="sw-modal" aria-hidden="true">
+    <div class="sw-modal-overlay" data-micromodal-close="">
+        <div tabindex="-1" class="sw-modal-container">
+            <div role="dialog" aria-modal="true" aria-labelledby="micromodal-title">
+                <button aria-label="Close modal" class="sw-modal-close" onclick="MicroModal.close('sw-modal')"></button>
+                <div id="sw-modal-content">
+                    <iframe class="sw-modal-iframe"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--move fixed header under template bar if needed-->
+
+<!--Scroll to section-->
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        $('a').each(function (index, el) {
+            let href = $(el).attr('href');
+            let path = cleanSlugFromPath(location.pathname);
+            if (href && href.startsWith(path + '#')) {
+                const scrollTo = href.split('#')[1];
+                $(this).attr('href', '#' + scrollTo);
+            }
+        });
+
+        function cleanSlugFromPath(pagePath) {
+            if (pagePath.includes("/r/rec")) {
+                pagePath = pagePath.substring(0, pagePath.indexOf("/r/rec"));
+                pagePath = pagePath.substring(0, pagePath.lastIndexOf("/"));
+            }
+
+            return pagePath + (pagePath.endsWith('/') ? '' : '/');
+        }
+    });
+
+</script>
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
